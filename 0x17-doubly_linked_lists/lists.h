@@ -2,6 +2,7 @@
 #define LISTS_H
 
 #include <stddef.h>
+#include <stdlib.h>
 
 /* Struct for doubly linked list nodes */
 typedef struct dlistint_s
@@ -20,5 +21,6 @@ void free_dlistint(dlistint_t *head);
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index);
 int sum_dlistint(dlistint_t *head);
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n);
+int delete_dnodeint_at_index(dlistint_t **head, unsigned int index);
 
 #endif /* LISTS_H */
