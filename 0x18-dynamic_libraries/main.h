@@ -1,11 +1,11 @@
-#ifndef _MAIN_H_
+#ifndef _MAIN_H_ 
 #define _MAIN_H_
 
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
-int_abs(int n);
-int _isupper(int c)
+int _abs(int n);
+int _isupper(int c);
 int _isdigit(int c);
 int _strlen(char *s);
 void _puts(char *s);
@@ -22,4 +22,4 @@ unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
 
-#endif /* _MAIN_H_ */
+#endif /*_MAIN_H_*/
